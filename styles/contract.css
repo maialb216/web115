@@ -6,4 +6,5 @@ html {
 	background-color: darkseagreen;
 	text-align: center;
 	font-family: 'EB Garamond', serif;
+	list-style-position: inside;
 }
