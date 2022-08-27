@@ -1,0 +1,14 @@
+/* css goes here */
+
+/* note to self - text alice blue, background teal, accents light green, links light sky blue */
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+html {
+	background-color: teal;
+	color: aliceblue;
+	text-align: center;
+	font-family: 'EB Garamond', serif;
+	list-style-position: inside;
+}
+
