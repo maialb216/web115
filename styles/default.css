@@ -7,17 +7,26 @@
 html {
 	background-color: teal;
 	color: aliceblue;
-	text-align: center;
 	font-family: 'Martel', serif;
 	list-style-position: inside;
 }
 
+body {
+	margin-left: 25%;
+	margin-right: 25%
+}
+
 h1, h2, h3, h4 {
 	color: lightgreen;
+	text-align: center;
 	font-family: 'Prata', serif;
 }
 
 p#mission {
 	font-style: italic;
 	color: lightgreen;
+}
+
+footer {
+	text-align: center;
 }
