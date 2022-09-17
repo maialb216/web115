@@ -30,3 +30,11 @@ p#mission {
 footer {
 	text-align: center;
 }
+
+a:link {
+	color: aqua;
+}
+
+figure {
+	text-align: center;
+}
