@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Little Guy Cafe Fizz Buzz 0</title>
 	<link rel="stylesheet" href="styles/default.css">
+	<script src="scripts/fizzbuzz0.js"></script>
 </head>
 
 <body>
@@ -13,12 +14,17 @@
 	<h2 id="greeting">Welcome to Little Guy Cafe</h2>
 </header>
 
-<nav>
-	<ul>
-		<li><a href="#">Menu Option 1</a></li>
-		<li><a href="#">Menu Option 2</a></li>
-	</ul>
-</nav> 
+<form action="javascript:void(0);" method="post" onsubmit="fizzBuzz()">
+	<label for="firstName">First Name:</label><br>
+	<input type="text" id="firstName" name="first" placeholder="First Name"><br>
+	<label for="middleInitial">Middle Initial:</label><br>
+	<input type="text" id="middleInitial" name="middle" placeholder="M" maxlength="1"><br>
+	<label for="lastName">Last Name:</label><br>
+	<input type="text" id="lastName" name="last" placeholder="Last Name"><br>
+	<input type="submit" value="Submit">
+</form>
+
+<p id="output">...</p>
 
 <footer>
 	<ul>
