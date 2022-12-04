@@ -39,21 +39,16 @@ figure {
 	text-align: center;
 }
 
-.navbar {
-	display: block;
-	list-style-type: none;
-	text-align: center;
-	padding: 0;
-	overflow: hidden;
+.nav ul {
+   list-style: none;
+   text-align: center;
 }
 
-.nav {
-	float: left;
+.nav ul li {
+   display: inline-block;
 }
 
-.nav a {
-	display: block;
+.nav ul li a {
 	text-align: center;
-	text-decoration: none;
 	padding: 4px 12px;
 }
