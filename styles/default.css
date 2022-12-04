@@ -39,6 +39,11 @@ figure {
 	text-align: center;
 }
 
+.navbar {
+	list-style-type: none;
+	overflow: hidden;
+}
+
 .nav {
 	float: left;
 }
@@ -46,4 +51,5 @@ figure {
 .nav a {
 	display: block;
 	text-align: center;
+	text-decoration: none;
 }
