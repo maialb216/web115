@@ -39,16 +39,16 @@ figure {
 	text-align: center;
 }
 
-.nav ul {
-   list-style: none;
-   text-align: center;
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
 }
-
-.nav ul li {
-   display: inline-block;
+.nav li{
+    display:inline;
 }
-
-.nav ul li a {
-	text-align: center;
-	padding: 4px 12px;
+.nav a{
+    display:inline-block;
+    padding:10px;
 }
