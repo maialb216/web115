@@ -41,6 +41,8 @@ figure {
 
 .navbar {
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
 	overflow: hidden;
 }
 
@@ -52,5 +54,5 @@ figure {
 	display: block;
 	text-align: center;
 	text-decoration: none;
-	padding: 10%;
+	padding: 4px 12px;
 }
