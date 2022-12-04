@@ -27,6 +27,10 @@ p#mission {
 	color: lightgreen;
 }
 
+a#validation_link_html, a#validation_link_css {
+	text-decoration: none;
+}
+
 footer {
 	text-align: center;
 }
@@ -37,6 +41,10 @@ a:link {
 
 figure {
 	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
 }
 
 .nav{
